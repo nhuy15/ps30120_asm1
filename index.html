@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href ="css/c1.css"
+</head>  
+<body>
+    <header id="header"> </header>
+    <nav id="menu">
+        <a href="#top">Trang chủ</a>
+        <a href="#listhochiminh"> Hồ Chí Minh</a>
+        <a href="#listmientay"> Miền Tây</a>
+        <a href="#listhanoi"> Hà Nội</a>
+        <a href="#listlienhe"> Liên hệ</a>
+    </nav>
+    <main> 
+       <section id="listhochiminh">
+          <h2> Tham quan Thành Phố Hồ Chí Minh </h2>
+          <div id="data"> </div>
+       </section> 
+       <section id="listmientay">
+           <h2> Tham quan miền Tây sông nước </h2>
+           <div id="data"> </div>
+       </section>
+       <section id="listhanoi">
+            <h2> Tham quan Hà Nội </h2>
+        <div id="data"> </div>
+       </section>
+    </main>
+    <footer> Du Lịch Ba Miền </footer>
+</body>  
+</html>
+<script type="module">
+    import {showlisthochiminh, showlistmientay, showlisthanoi,} from './js/app.js';
+    document.querySelector("#listhochiminh #data").innerHTML = showlisthochiminh();
+    document.querySelector("#listmientay #data").innerHTML = showlistmientay();
+    document.querySelector("#listhanoi #data").innerHTML = showlisthanoi();
+</script>
