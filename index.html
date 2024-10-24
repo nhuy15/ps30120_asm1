@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
    <link rel="stylesheet" href ="css/c1.css"
 </head>  
 <body>
-    <header id="header"> </header>
+    <header id="header"> <marquee width="100%" >THAM KHẢO MỘT SỐ ĐỊA DANH NỔI TIẾNG Ở VIỆT NAM MÙA DU LỊCH </marquee>
+
+    </header>
     <nav id="menu">
         <a href="#top">Trang chủ</a>
         <a href="#listhochiminh"> Hồ Chí Minh</a>
@@ -18,20 +21,20 @@
           <div id="data"> </div>
        </section> 
        <section id="listmientay">
-           <h2> Tham quan miền Tây sông nước </h2>
+           <h2> Tham quan miền Tây sông nước  <a href="#top">&#8657;</a> </h2>
            <div id="data"> </div>
        </section>
        <section id="listhanoi">
-            <h2> Tham quan Hà Nội </h2>
+            <h2> Tham quan Hà Nội <a href="#top">&#8657;</a> </h2>
         <div id="data"> </div>
        </section>
     </main>
-    <footer> Du Lịch Ba Miền </footer>
+    <footer> PS30120 - Huỳnh Thị Như Ý <a href="#top">&#8657;</a> </footer>
 </body>  
 </html>
 <script type="module">
     import {showlisthochiminh, showlistmientay, showlisthanoi,} from './js/app.js';
-    document.querySelector("#listhochiminh #data").innerHTML = showlisthochiminh();
-    document.querySelector("#listmientay #data").innerHTML = showlistmientay();
-    document.querySelector("#listhanoi #data").innerHTML = showlisthanoi();
+    document.querySelector("#listhochiminh #data").innerHTML =await showlisthochiminh();
+    document.querySelector("#listmientay #data").innerHTML =await showlistmientay();
+    document.querySelector("#listhanoi #data").innerHTML =await showlisthanoi();
 </script>

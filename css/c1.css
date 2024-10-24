@@ -1,15 +1,17 @@
 * { margin:0; padding:0 ; box-sizing: border-box;}
 a { text-decoration: none;}
 html { scroll-behavior: smooth; }
-#header { 
-   height: 90px; background: rgb(195, 52, 145); 
+
+#header { font-size: 1.9em;
+   height: 90px; background: rgb(130, 221, 227); 
    text-align: center; padding: 20px 0; }
 #menu {background: orange; height:60px; line-height: 60px;text-align: center; 
    position: sticky; top:0; left:0; }
- #menu a { font-size: 1.2em; color:white; margin: auto 10px; }
+ #menu a { font-size: 1.2em; color:rgb(15, 25, 223); margin: auto 10px; }
  #menu a:hover { color:rgb(230, 52, 16); text-decoration: underline;}
  #listhochiminh { background-color: rgb(233, 213, 233); padding:40px 0}
- #listhochiminh h2 { text-align: center; text-transform: uppercase; color: brown; }
+ #listhochiminh h2 { font-size: 1.9em;
+   text-align: center; text-transform: uppercase; color: brown; }
  #listhochiminh #data {
     display: flex; 
     flex-wrap: wrap; 
@@ -19,17 +21,18 @@ html { scroll-behavior: smooth; }
     border: 2px solid black ;
      margin: 15px 0.2%; 
     text-align: center;
-    font-size: 1.3em; 
+    font-size: 1.5em; 
     box-shadow: 2px 2px 3px rgb(125, 124, 89); 
     border-radius: 5px;
     padding:20px; 
     line-height: 150%; }
- #listhochiminh #data > div img { width: 100% ; height: 300px}
- #listhochiminh #data > div > p { margin: 15px; }
-
+ #listhochiminh #data > div img { width: 90% ; height: 250px}
+ #listhochiminh #data > div > p { margin: 12px; }
+ #listhochiminh #data > div img:hover { transform: scale(1.1); cursor: pointer;}
+ 
 
  #listmientay { background-color: rgb(162, 235, 156); padding:40px 0}
- #listmientay h2 {
+ #listmientay h2 { font-size: 1.9em;
     text-align: center; 
     text-transform: uppercase; 
     color: rgb(24, 8, 93);}
@@ -40,17 +43,18 @@ html { scroll-behavior: smooth; }
  #listmientay #data > div { 
      width: 30%; 
      border: 2px solid black ; 
-     margin: 15px 0.5%; 
+     margin: 15px 0.2%; 
      text-align: center; 
-     font-size: 1.3em;
+     font-size: 1.5em;
      padding:20px;
      line-height: 150%; }  
-     #listmientay #data > div img { width: 100% ; height: 300px}
-     #listmientay #data > div > p { margin: 15px; }
+     #listmientay #data > div img { width: 90% ; height: 250px}
+     #listmientay #data > div > p { margin: 12px; }
+     #listmientay #data > div img:hover { transform: scale(1.1); cursor: pointer;}
     
 
  #listhanoi { background-color: rgb(246, 244, 130); padding:40px 0}
- #listhanoi h2 {
+ #listhanoi h2 { font-size: 1.9em;
         text-align: center; 
         text-transform: uppercase; 
         color: rgb(232, 16, 63);}
@@ -60,15 +64,15 @@ html { scroll-behavior: smooth; }
         justify-content: space-around;}  
  #listhanoi #data > div { 
          width: 30%; 
-         border: 2px solid black ; 
+         border: 2px solid rgb(149, 233, 13) ; 
          margin: 15px 0.5%; 
          text-align: center; 
-         font-size: 1.3em;
+         font-size: 1.5em;
          padding:20px;
          line-height: 150%; }
-         #listhanoi #data > div img { width: 100% ; height: 300px}
-         #listhanoi #data > div > p { margin: 15px; }
-        
+         #listhanoi #data > div img { width: 90% ; height: 250px}
+         #listhanoi #data > div > p { margin: 10px; }
+         #listhanoi #data > div img:hover { transform: scale(1.1); cursor: pointer;}
  footer { 
     height: 60px ; background-color: rgb(31, 148, 211); display:flex;
     justify-content: center; align-items: center; color: white; font-size: 2.5em;
