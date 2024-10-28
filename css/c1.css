@@ -72,7 +72,7 @@ html { scroll-behavior: smooth; }
          line-height: 150%; }
          #listhanoi #data > div img { width: 90% ; height: 250px}
          #listhanoi #data > div > p { margin: 10px; }
-         #listhanoi #data > div img:hover { transform: scale(1.1); cursor: pointer;}
+         #listhanoi #data > div:hover { transform: scale(1.1); cursor: pointer;}
  footer { 
     height: 60px ; background-color: rgb(31, 148, 211); display:flex;
     justify-content: center; align-items: center; color: white; font-size: 2.5em;
